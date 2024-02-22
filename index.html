@@ -16,7 +16,7 @@
     <!-- Main container with navigation and header content -->
     <div class="container flex flex-col mx-auto">
         <header class="header">
-            <div class="nav-container">
+            <div class="nav-container flex flex-wrap">
                 <div>
                     <img class="logo-img" src="/assets/component-1/navigation/cache-bank-logo.png" alt="bank logo">
                     <!--hamburger emoji-->
@@ -31,7 +31,7 @@
                 </nav>
                 <!--log in information div-->
                 <div class="log-in-info">
-                    <p>Log In</p>
+                    <a>Log In</a>
                     <button class="bg-sky-800">Sign up</button>
 
                 </div>
@@ -59,15 +59,15 @@
             <img src="/assets/component-2/hero-image.png">
         </div>
         <!--Icons of companies using font awesome-->
-        <div>
+        <div class="">
             <p>Endorsed by global companies like</p>
-            <ul>
-                <li><img src="/assets/component-2/logos/nike-logo.svg"></li>
-                <li><img src="/assets/component-2/logos/amazon-logo.svg"></li>
-                <li><img src="/assets/component-2/logos/minecraft-logo.svg"></li>
-                <li><img src="/assets/component-2/logos/steam-logo.svg"></li>
-                <li><img src="/assets/component-2/logos/notion-logo.svg"></li>
-            </ul>
+            <div class="flex flex-wrap  justify-evenly">
+                <img src="/assets/component-2/logos/nike-logo.svg">
+                <img src="/assets/component-2/logos/amazon-logo.svg">
+                <img src="/assets/component-2/logos/minecraft-logo.svg">
+                <img src="/assets/component-2/logos/steam-logo.svg">
+                <img src="/assets/component-2/logos/notion-logo.svg">
+            </div>
         </div>
     </section>
     <!-- Centered container for features -->

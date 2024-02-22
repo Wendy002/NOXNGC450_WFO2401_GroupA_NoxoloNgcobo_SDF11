@@ -611,6 +611,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(0 181 116 / var(--tw-bg-opacity));
