@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-      "browsersync": "browser-sync start --directory --server --files --startPath index.html",
+      "browsersync": "browser-sync start --directory --server --files --startPath /src/index.html",
       "build": "tailwindcss build -i src/styles.css -o assets/css/theme.css",
       "build-minify": "tailwindcss build -i src/styles.css -o assets/css/theme.min.css --minify",
       "watch": "npx tailwindcss -i src/styles.css -o assets/css/theme.css --watch"
