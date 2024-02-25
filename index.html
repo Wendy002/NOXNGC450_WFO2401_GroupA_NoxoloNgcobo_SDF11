@@ -15,7 +15,7 @@
 <body class="antialiased  min-h-screen  bg-slate-50 w-full p-5"> <!-- ADD DARKMODE  dark:bg-slate-950 dark:text-white-->
     <!-- Main container with navigation and header content -->
     
-    <header class="sticky top-0 z-10 bg-slate-50">
+    <header class="sticky top-0 z-10 bg-white">
         <section class="w-full mx-auto flex flex-wrap justify-between py-4">
             <div>
                 <img viewBox="0 0 248 31" class="w-auto h-8" src="/assets/component-1/navigation/cache-bank-logo.png" alt="bank logo">
@@ -27,7 +27,7 @@
             </div>
             
             <!--Navigation bar links-->
-            <nav class=" hidden md:block space-x-8 text-l mt-1 text-gray-700" aria-label="main">
+            <nav class=" hidden md:block space-x-8 text-l mt-1 text-gray-500" aria-label="main">
                 <a href="#product" class="hover:text-green-500">Product</a>
                 <a href="#features" class="hover:text-green-500">Features</a>
                 <a href="#get-started" class="hover:text-green-500">Get started</a>
@@ -35,15 +35,24 @@
             </nav>
             <!--log in information div-->
             <div class="hidden sm:block text-l space-x-4">
-                <a class="hover:text-blue-500 hover:underline aft">Log In</a>
-                <button class="bg-green-500 font-bold py-1 px-3 rounded-md ">Sign up</button>
-
+                <a class="hover:text-blue-500 hover:underline">Log In</a>
+                <button class="bg-green-500 hover:bg-white hover:text-green-500 hover:border-green-500 border-solid border-2 font-bold py-1 px-3 rounded-md">Sign up</button>
             </div>
+
         </section>
         <!--nav to cover the whole page when screen size is mobile plus animated hamburgur button-->
-        <section id="mobile-menu" class=" absolute top-0 bg-slate-50 w-full text-xl flex flex-col">
-            <button class="text-3xl self-end px-6 cursor-pointer"> &times; </button>
-
+        <section id="mobile-menu" class="absolute top-0 bg-white w-full text-xl flex flex-col origin-top animate-open-menu hidden">
+            <button class="text-5xl self-end px-6"> &times; </button>
+            <nav class="flex flex-col min-h-screen py-6 text-l" aria-label="mobile" >
+                <a href="#product" class=" w-full hover:text-green-500 py-6 ml-3  text-gray-500">Product</a>
+                <a href="#features" class="w-full hover:text-green-500 py-6 ml-3  text-gray-500">Features</a>
+                <a href="#get-started" class="w-full hover:text-green-500 py-6 ml-3  text-gray-500">Pricing</a>
+                <a href="#contact" class="w-full hover:text-green-500 py-6 ml-3  text-gray-500">Company</a>
+                <a class="hover:text-blue-500 hover:underline col-span-1 mb-4 ml-3 py-2">Log In</a><span>
+                <button class="bg-indigo-100 text-indigo-600 hover:bg-indigo-600 hover:text-indigo-100 hover:border-indigo-100 border-solid border-2 font-bold py-1 px-3 rounded-md ml-3">Sign up</button>
+                
+            </nav>
+            
         </section>
 
     </header>
@@ -54,7 +63,7 @@
         <section class="w-full" id="product"> 
             <!--introduction section-->
             <div>
-                <h1 class="">The Clever Place to Keep Your Cache</h1>
+                <h1 class="font-extrabold ">The Clever Place to Keep Your Cache</h1>
                 <p>Cache Bank designed exclusively for software developers.
                     We understand your financial needs are unique as the code you write.
                     Our services offer cutting edge financial solutions that help you take
