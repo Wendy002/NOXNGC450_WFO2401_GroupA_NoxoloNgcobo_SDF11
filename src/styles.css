@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+  
+.navy-blue{
+    color: #1b2559ff;
+}
+.custom-h{
+    height: 400px;
+}
+
+
+
