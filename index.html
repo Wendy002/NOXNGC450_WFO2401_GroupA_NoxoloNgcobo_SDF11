@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./assets/css/tailwind/tailwind.min.css">
     <link rel="stylesheet" href="./assets/css/theme.css">
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
+    <script src="/assets/js/loopple/main.js" defer></script>
+
 </head> 
 
 <body class="antialiased  min-h-screen  bg-slate-50 w-full p-5"> <!-- ADD DARKMODE  dark:bg-slate-950 dark:text-white-->
@@ -42,7 +44,11 @@
         </section>
         <!--nav to cover the whole page when screen size is mobile plus animated hamburgur button-->
         <section id="mobile-menu" class="absolute top-0 bg-white w-full text-xl flex flex-col origin-top animate-open-menu hidden">
-            <button class="text-5xl self-end px-6"> &times; </button>
+            <div class="flex justify-between">
+                <img viewBox="0 0 248 31" class="w-auto h-8 mt-3" src="/assets/component-1/navigation/cache-bank-logo.png" alt="bank logo">
+                <button class="text-5xl  px-6"> &times; </button>
+            </div>
+        
             <nav class="flex flex-col min-h-screen py-6 text-l" aria-label="mobile" >
                 <a href="#product" class=" w-full hover:text-green-500 py-6 ml-3  text-gray-500">Product</a>
                 <a href="#features" class="w-full hover:text-green-500 py-6 ml-3  text-gray-500">Features</a>
