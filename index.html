@@ -64,13 +64,13 @@
 
     </header>
     <br>
-    <main class="container mx-auto">
+    <main class="container mx-auto mb-16">
         <!-- Wide full-width - Section for Hero & endorsements  -->
         
         <section  id="product"> 
             <!--introduction section-->
-            <div class="w-full flex flex-col justify-center sm:py-12 lg:py-24 lg:flex-row lg:justify-between  mx-auto">
-                <div class="flex flex-col justify-center p-2 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left ">
+            <div class="w-full flex flex-col justify-center sm:py-12 lg:py-24 lg:flex-row lg:justify-between  mx-auto overflow-hidden">
+                <div class="flex flex-col justify-center p-2 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left overflow-hidden">
                     <h1 class="text-4xl font-extrabold sm:text-5xl text-center sm:text-left navy-blue">The Clever Place to Keep Your Cache</h1>
                     <p class="max-w-lg leading-7 text-sm tex t-center sm:text-left navy-blue mt-4 pt-4 pr-8">Cache Bank designed exclusively for software developers.
                         We understand your financial needs are unique as the code you 
@@ -188,12 +188,12 @@
             </div>
         
     
-            <div class="w-full flex flex-col justify-center sm:py-12 lg:py-24 lg:flex-row lg:justify-between  mx-auto gap-12">
-                <div>
+            <div class="w-full flex flex-col justify-center sm:py-12 lg:py-24 lg:flex-row lg:justify-between  mx-auto overflow-hidden">
+                <div class =" w-1/2 flex items-center justify-center p-2  lg:mt-0 h-80 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
                     <img src="/assets/component-4/getting-started.png">
                 </div>
                  <!--Info abot Cache bank-->
-                <div>
+                <div class=" w-1/2 flex flex-col justify-center p-2 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left overflow-hidden"> 
                     <div>
                         <h2 class="font-extrabold sm:text-3xl navy-blue  text-2xl">How Cache Works?</h2>
                         <p class="text-sm tex t-center sm:text-left navy-blue mt-2">Cache Bank simplifies sign-up with a user-friendly website, 
@@ -202,25 +202,25 @@
                         </p>
                     </div>
 
-                    <div class="mt-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <div class="mt-14 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 text-xs leading-5 gap-y-12">
                         <div>
-                            <h3 class="bg-green-500 text-center mx-20 py-3 rounded-full">1</h3>
-                            <p class>Visit Cache Website</p>
+                            <h3 class="bg-green-500 text-center mr-40 py-3 rounded-full font-bold text-white">1</h3>
+                            <p class="mt-2 font-bold navy-blue">Visit Cache Bank Website</p>
                             <p>Go to Cache Bank, click "Sign up" or "Open Acoount"</p>
                         </div>
                         <div>
-                            <h3 class="bg-col text-center mx-20 py-3 rounded-full">2</h3>
-                            <p>Choose Account Type</p>
+                            <h3 class="bg-col text-center mr-40 py-3 rounded-full font-bold text-white">2</h3>
+                            <p class="mt-2 font-bold navy-blue">Choose Account Type</p>
                             <p>Select from checking, savings, or developer-specific accounts.</p>
                         </div>
                         <div>
-                            <h3 class="bg-col text-center mx-20 py-3 rounded-full">3</h3>
-                            <p>Provide Personal Information</p>
+                            <h3 class="bg-col text-center mr-40 py-3 rounded-full font-bold text-white">3</h3>
+                            <p class="mt-2 font-bold navy-blue">Provide Personal Information</p>
                             <p>Complete the form with your details and identification for security.</p>
                         </div>
                         <div>
-                            <h3 class="bg-green-500 text-center mx-20 py-3 rounded-full">4</h3>
-                            <p>Verify and Submit</p>
+                            <h3 class="bg-green-500 text-center mr-40 py-3 rounded-full font-bold text-white">4</h3>
+                            <p class="mt-2 font-bold navy-blue">Verify and Submit</p>
                             <p>Check your information,agree to terms and submit for account approval.</p>
                         </div>
                     </div>
@@ -232,29 +232,30 @@
         </section>
         <!-- Wide full-width section for contacts -->
         <section class="w-full" id="contact">
-        <div>
-            <div>
-                <!--add icon in this space-->
-                <img src="/assets/component-5/contact-icons/green-email.svg">
-                <p>Email</p>
-                <p>Contact us @</p>
-                <p>hi@cachebank.com</p>
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 overflow-hidden mx-w-md text-sm">
+
+                <div class="text-center rl">
+                    <!--add icon in this space-->
+                    <img class="mx-auto" src="/assets/component-5/contact-icons/green-email.svg">
+                    <p class="navy-blue font-extrabold">Email</p>
+                    <p>Contact us at</p>
+                    <p>hi@cachebank.com</p>
+                </div>
+                <div class="text-center ounded-lg shadow-2xl">
+                    <!--add icon in this space-->
+                    <img class="mx-auto" src="/assets/component-5/contact-icons/green-phone.svg">
+                    <p class="navy-blue font-extrabold">Phone</p>
+                    <p>Reach out to us by phone</p>
+                    <p>+215-486-5135</p>
+                </div>
+                <div class="text-center ounded-lg shadow-2xl">
+                    <!--add icon in this space-->
+                    <img class="mx-auto" src="/assets/component-5/contact-icons/green-location-pin.svg">
+                    <p class="navy-blue font-extrabold">Location</p>
+                    <p>Find us at our office</p>
+                    <p>15 Tech Alley, Cape Town</p>
+                </div>
             </div>
-            <div>
-                <!--add icon in this space-->
-                <img src="/assets/component-5/contact-icons/green-phone.svg">
-                <p>Phone</p>
-                <p>Reach out to us by phone</p>
-                <p>+215-486-5135</p>
-            </div>
-            <div>
-                <!--add icon in this space-->
-                <img src="/assets/component-5/contact-icons/green-location-pin.svg">
-                <p>Location</p>
-                <p>Find us at our office</p>
-                <p>15 Tech Alley, Cape Town</p>
-            </div>
-        </div>
         </section>
         <!-- Full-width footer container with green background -->
     </main>
