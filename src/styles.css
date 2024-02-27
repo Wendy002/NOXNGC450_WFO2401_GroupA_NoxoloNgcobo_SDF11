@@ -17,3 +17,7 @@
 .firstline-cards:hover{
     background: #ed4a9bff;
 }
+
+.bg-image{
+    background-image: url("/assets/component-4/getting-started.png");
+}
