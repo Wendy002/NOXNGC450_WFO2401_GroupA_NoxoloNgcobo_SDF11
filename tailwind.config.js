@@ -238,6 +238,7 @@ module.exports = {
         "open-menu": 'open-menu 0.5s ease-in-out forwards',
 
       },
+      darkMode: 'html', // add dark mode class
     },
     container: {
       center: true,
