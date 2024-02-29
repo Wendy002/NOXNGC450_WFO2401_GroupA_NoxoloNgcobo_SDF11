@@ -53,6 +53,6 @@ like create event listeners for the sign up button that directs you to a user si
 
 ##### Slides, deployed app and Video Presentation
 - **Slides**- https://docs.google.com/presentation/d/1aL1HHB1Z10VZgd2PJEiP2YIBgizwNHachP8-IjeCDE0/edit?usp=sharing
-- **Presentation**- loom
+- **Presentation**- https://www.loom.com/share/c5e185495aa5479cbb7cee4226a39055?sid=1a167cb2-89d6-4660-bafa-2515f8497cc5
 - **website** - https://cachelandingpage.netlify.app/
 
